@@ -170,9 +170,116 @@ See the section on [`code`](#code).
 | Codecademy Tee    |  False   | 19.99 |
 | Codecademy Hoodie |  False   | 42.99 |
 
-# Final Test Bash
+# Programming Language within Markdown
 
-`My Creator`
-```c++
-string creator = "Diego Orlando Bustamante Palomino"
+`My Creator` (Inheritance `Micaela`)
+
+## `C`
+```c
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
+int main() {
+    // Establish the seed for reproducibility
+    srand(time(NULL));
+
+    // Generate 5 random numbers between 1 and 10
+    for (int i = 0; i < 5; ++i) {
+        int random_number = rand() % 10 + 1;
+        printf("Random number: %d\n", random_number);
+    }
+
+    std::cout<<"Diego Orlando Bustamante Palomino"<<std::endl;
+
+    return 0;
+}
+```
+
+## `C#`
+```c#
+using System;
+
+class Program {
+    static void Main() {
+        Console.WriteLine("Hello, World!");
+    }
+}
+```
+
+## `C++`
+
+```cpp
+#include <iostream>
+#include <math>
+using namespace std;
+
+int main()
+{
+    std::cout<<"Diego Orlando Bustamante Palomino"<<std::endl;
+
+    return 0;
+}
+
+```
+
+## `Javascript`
+```js
+let creator = "Diego Orlando Bustamante Palomino"
+```
+
+## `Ruby`
+```ruby
+require 'redcarpet'
+markdown = Redcarpet.new("Hello World!")
+puts markdown.to_html
+```
+
+## `Java`
+```java 
+public class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Diego Orlando Bustamante Palomino!");
+    }
+} 
+```
+
+
+
+## `Python`
+```python
+print("Diego Orlando Bustamante Palomino")
+```
+
+## `HTML`
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My HTML Page</title>
+</head>
+<body>
+    <h1>Diego Orlando Bustamante Palomino!</h1>
+</body>
+</html>
+```
+
+## `CSS`
+```css
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+```
+
+## `Ruby`
+
+```r
+set.seed(123)
+
+# Generar 5 números aleatorios entre 1 y 10
+random_numbers <- runif(5, min = 1, max = 10)
+
+# Imprimir los números generados
+cat("Números Aleatorios:", random_numbers, "\n")
 ```
